@@ -48,3 +48,23 @@ INSERT INTO ventas (producto, precio_unitario, cantidad, vendedor, talla, fecha,
 INSERT INTO ventas (producto, precio_unitario, cantidad, vendedor, talla, fecha, total) VALUES ('Diadema elegante', 28000, 2, 'Laura G�mez', 'XXXL', '2025-01-01', 56000);
 INSERT INTO ventas (producto, precio_unitario, cantidad, vendedor, talla, fecha, total) VALUES ('Conjunto formal mixto', 175000, 1, 'Sof�a V�lez', 'XXXL', '2025-02-13', 175000);
 INSERT INTO ventas (producto, precio_unitario, cantidad, vendedor, talla, fecha, total) VALUES ('Vestido c�ctel ni�a', 180000, 2, 'Valentina R�os', 'XXXL', '2025-02-25', 360000);
+
+
+INSERT INTO usuarios (username, password, email) VALUES ('user1', 'pass123', 'user1@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user2', 'pass123', 'user2@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user3', 'pass123', 'user3@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user4', 'pass123', 'user4@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user5', 'pass123', 'user5@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user6', 'pass123', 'user6@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user7', 'pass123', 'user7@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user8', 'pass123', 'user8@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user9', 'pass123', 'user9@test.com');
+INSERT INTO usuarios (username, password, email) VALUES ('user10', 'pass123', 'user10@test.com');
+
+
+INSERT INTO empleados (id, nombre, cargo, salario, departamento) VALUES (1, 'Laura Gómez', 'Desarrollador Frontend', 3200.0, 'TI');
+INSERT INTO empleados (id, nombre, cargo, salario, departamento) VALUES (2, 'Carlos Mesa', 'Desarrollador Backend', 3500.0, 'TI');
+INSERT INTO empleados (id, nombre, cargo, salario, departamento) VALUES (3, 'Valentina Ríos', 'UX/UI Designer', 3100.0, 'Diseño');
+INSERT INTO empleados (id, nombre, cargo, salario, departamento) VALUES (4, 'Andrés Parra', 'QA Engineer', 2800.0, 'Calidad');
+INSERT INTO empleados (id, nombre, cargo, salario, departamento) VALUES (5, 'Sofía Vélez', 'Analista de Datos', 3000.0, 'BI');
+INSERT INTO empleados (id, nombre, cargo, salario, departamento) VALUES (6, 'Miguel Torres', 'DevOps Engineer', 4000.0, 'Infraestructura');

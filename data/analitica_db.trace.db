@@ -1,0 +1,40 @@
+2026-04-30 13:49:23.095859-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user1', 'pass123', 'user1@test.com') [42102-224]
+2026-04-30 13:49:23.105056-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user2', 'pass123', 'user2@test.com') [42102-224]
+2026-04-30 13:49:23.106639-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user3', 'pass123', 'user3@test.com') [42102-224]
+2026-04-30 13:49:23.108183-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user4', 'pass123', 'user4@test.com') [42102-224]
+2026-04-30 13:49:23.109720-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user5', 'pass123', 'user5@test.com') [42102-224]
+2026-04-30 13:49:23.111242-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user6', 'pass123', 'user6@test.com') [42102-224]
+2026-04-30 13:49:23.112760-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user7', 'pass123', 'user7@test.com') [42102-224]
+2026-04-30 13:49:23.113784-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user8', 'pass123', 'user8@test.com') [42102-224]
+2026-04-30 13:49:23.114808-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user9', 'pass123', 'user9@test.com') [42102-224]
+2026-04-30 13:49:23.116329-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USERS" no encontrada
+Table "USERS" not found; SQL statement:
+INSERT INTO users (username, password, email) VALUES ('user10', 'pass123', 'user10@test.com') [42102-224]
