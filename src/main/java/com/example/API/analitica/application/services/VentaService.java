@@ -1,6 +1,7 @@
 package com.example.API.analitica.application.services;
 
 import com.example.API.analitica.domain.models.Venta;
+import com.example.API.analitica.domain.repositories.UsuarioRepository;
 import com.example.API.analitica.domain.repositories.VentaRepository;
 import com.example.API.analitica.domain.repositories.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +14,8 @@ public class VentaService {
     private VentaRepository ventaRepository;
     @Autowired
     private EmpleadoRepository empleadoRepository;
-
-    public List<Venta> obtenerTodas() { return ventaRepository.findAll(); }
+    @Autowired
+    private UsuarioRepository usuarioRepository; // Añadimos esto
 
     public Map<String, Object> obtenerDatosDashboard() {
         List<Venta> ventas = ventaRepository.findAll();
@@ -28,6 +29,7 @@ public class VentaService {
 
         data.put("ingresosTotales", ingresos);
         data.put("totalEmpleados", empleadoRepository.count());
+        data.put("totalUsuarios", usuarioRepository.count()); // Nueva línea para el dashboard
 
         return data;
     }
